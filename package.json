@@ -1,0 +1,25 @@
+{
+  "name": "graphql-sample",
+  "version": "1.0.0",
+  "description": "A practice project on GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stereoraj/GraphQL-sample.git"
+  },
+  "author": "Rajesh Mainali",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Stereoraj/GraphQL-sample/issues"
+  },
+  "homepage": "https://github.com/Stereoraj/GraphQL-sample#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.2.1"
+  }
+}
