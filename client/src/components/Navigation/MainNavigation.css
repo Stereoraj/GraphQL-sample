@@ -6,9 +6,11 @@
     height: 3.5rem;
     /* background: gray;  */
     background: linear-gradient(to right, #3DD1F2, #3D8BF2);
-    padding: 0 1rem;
+    padding: 0 2rem;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
 }
 
 .main-navigation__logo h1{
@@ -25,19 +27,31 @@
     padding: 0;
     display: flex;
     list-style: none;
+    align-items: center;
 }
 
 .main-navigation__items li {
     margin: 0 1rem;
 }
 
-.main-navigation__items a {
+.main-navigation__items a,
+.main-navigation__items button {
     text-decoration: none;
     color: white;
+    padding: 0.25rem 0.5rem;
+    border: none;
+    font: inherit;
+    background: transparent;
+    cursor: pointer;
 }
 
 .main-navigation__items a:hover,
+.main-navigation__items button:hover,
+.main-navigation__items button:active,
 .main-navigation__items a:active,
 .main-navigation__items a.active {
-    color: #000;
+    color: #3D8BF2;
+    background: white;
+    border-radius: 4px;
+    padding: 5px;
 }

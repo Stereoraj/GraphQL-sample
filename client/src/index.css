@@ -3,3 +3,39 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.form-control label,
+.form-control input {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.2rem;
+    display: block;
+}
+
+.form-control label {
+    margin-bottom: 0.5rem;
+}
+
+.form-control {
+    margin-bottom: 1rem;
+}
+
+.form-actions button ,
+.btn {
+    background: rgb(144, 223, 240);
+    font: inherit;
+    border: 1px solid rgb(18, 154, 184);
+    border-radius: 3px;
+    padding: 0.25rem 1rem;
+    margin-right: 1rem;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.26);
+    color: rgb(10, 120, 145);
+    cursor: pointer;
+}
+
+.form-actions button:hover,
+.form-actions button:active,
+.btn:hover {
+    background: rgb(95, 219, 247);
+    border: 2px solid rgb(2, 133, 162);
+}
