@@ -22,7 +22,7 @@ body {
 
 .form-actions button ,
 .btn {
-    background: rgb(144, 223, 240);
+    background: rgb(215, 245, 251);
     font: inherit;
     border: 1px solid rgb(18, 154, 184);
     border-radius: 3px;
@@ -36,6 +36,8 @@ body {
 .form-actions button:hover,
 .form-actions button:active,
 .btn:hover {
-    background: rgb(95, 219, 247);
-    border: 2px solid rgb(2, 133, 162);
+    /* background: rgb(95, 219, 247); */
+    background: linear-gradient(to right, #3DD1F2, rgb(137, 175, 224));
+    color: white;
+    /* border: 2px solid rgb(2, 133, 162); */
 }

@@ -4,7 +4,7 @@
     margin: 0 auto;
 }
 
-.form-control label,
+/* .form-control label,
 .form-control input {
     width: 100%;
     font-size: 1rem;
@@ -36,4 +36,4 @@
 .form-actions button:active{
     background: rgb(95, 219, 247);
     border: 2px solid rgb(2, 133, 162);
-}
+} */

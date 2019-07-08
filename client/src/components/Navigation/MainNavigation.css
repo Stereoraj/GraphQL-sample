@@ -43,6 +43,8 @@
     font: inherit;
     background: transparent;
     cursor: pointer;
+    vertical-align: middle;
+    margin: 0;
 }
 
 .main-navigation__items a:hover,
@@ -53,5 +55,5 @@
     color: #3D8BF2;
     background: white;
     border-radius: 4px;
-    padding: 5px;
+    /* padding: 5px; */
 }
